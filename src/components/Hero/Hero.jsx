@@ -21,10 +21,19 @@ const Hero = ({ togglePlay }) => {
                         et quaerat voluptas?
                     </p>
                     <div className="flex gap-6">
-                        <button className="primary-btn">
+                        <button
+                            data-aos="fade-up"
+                            data-aos-delay="500" 
+                            className="primary-btn"
+                        >
                             Get Started
                         </button>
-                        <button className="flex items-center gap-2">
+                        <button
+                            data-aos="fade-up"
+                            data-aos-delay="700"
+                            onClick={togglePlay} 
+                            className="flex items-center gap-2"
+                        >
                             {" "}
                             <BiPlayCircle className="text-3xl" />
                             See Demo 
