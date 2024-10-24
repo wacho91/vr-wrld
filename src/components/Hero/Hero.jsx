@@ -41,7 +41,11 @@ const Hero = ({ togglePlay }) => {
                     </div>
                 </div>
                 {/* image section */}
-                <div className="order-1 sm:order-2">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="0" 
+                    className="order-1 sm:order-2"
+                >
                     <img src={HeroPng} alt="image" className=""/>
                 </div>
             </div>
