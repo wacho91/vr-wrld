@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
+import Quotes from "./components/Quotes/Quotes";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 
 function App() {
 
@@ -27,6 +29,7 @@ function App() {
     <main className="overflow-x-hidden bg-white dark:bg-black text-black dark:text-white duration-300">
       <Navbar />
       <Hero togglePlay={togglePlay}/>
+      <Quotes />
     </main>
   )
 }
