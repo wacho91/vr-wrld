@@ -7,6 +7,7 @@ import Banner from "./components/Banner/Banner";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Banner2 from "./components/Banner/Banner2";
+import Features from "./components/Features/Features";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Quotes />
       <Banner togglePlay={togglePlay}/>
       <Banner2 togglePlay={togglePlay} />
+      <Features />
     </main>
   )
 }
