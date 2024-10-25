@@ -6,6 +6,7 @@ import Banner from "./components/Banner/Banner";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Banner2 from "./components/Banner/Banner2";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <Hero togglePlay={togglePlay}/>
       <Quotes />
       <Banner togglePlay={togglePlay}/>
+      <Banner2 togglePlay={togglePlay} />
     </main>
   )
 }
