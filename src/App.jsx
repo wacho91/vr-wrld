@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
 import Quotes from "./components/Quotes/Quotes";
+import Banner from "./components/Banner/Banner";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 
 function App() {
 
@@ -30,6 +30,7 @@ function App() {
       <Navbar />
       <Hero togglePlay={togglePlay}/>
       <Quotes />
+      <Banner />
     </main>
   )
 }
