@@ -30,7 +30,7 @@ function App() {
       <Navbar />
       <Hero togglePlay={togglePlay}/>
       <Quotes />
-      <Banner />
+      <Banner togglePlay={togglePlay}/>
     </main>
   )
 }
