@@ -4,16 +4,16 @@ import PlayStoreImg from "../../assets/website/play_store.png";
 
 const AppStore = () => {
   return (
-    <div>
-        <div>
-            <h1>
+    <div className="container py-10 sm:min-h-[400px] sm:grid sm:place-items-center">
+        <div className="space-y-6 max-w-xl mx-auto">
+            <h1 className="text-2xl text-center sm:text-4xl font-semibold">
                 Get Started with our app
             </h1>
-            <p>
+            <p className="text-center sm:px-20">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
                 magnam harum accusantium odit?
             </p>
-            <div>
+            <div className="flex flex-wrap justify-center gap-4 items-center">
                 <a href="#">
                     <img 
                         src={AppStoreImg} 
